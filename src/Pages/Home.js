@@ -13,7 +13,7 @@ export default class Home extends Component {
                 <Container >
                     <h2 className='text-center m-4'> Наши люди </h2>
                     <CardGroup>
-                        <Card text='danger' bg='dark'>
+                        <Card text='danger' >
                             <Card.Img 
                             variant='top'
                             src={mundirpng}                           
@@ -25,7 +25,7 @@ export default class Home extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card text='danger' bg='dark'>
+                        <Card text='danger'>
                             <Card.Img 
                             variant='top'
                             src={sklad}                           
@@ -37,10 +37,10 @@ export default class Home extends Component {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card text='danger' bg='dark'>
+                        <Card text='danger'>
                             <Card.Img 
                             variant='top'
-                            src='https://oaovoentorg.ru/netcat_files/multifile/2372/26_10.jpg'                           
+                            src='https://www.oaovoentorg.ru/netcat_files/multifile/2372/26_10.jpg'                           
                             />
                             <Card.Body>
                                 <Card.Title>Сотрудники</Card.Title>
