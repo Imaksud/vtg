@@ -1,6 +1,6 @@
 import React, { Component,} from 'react';
 import { Button, Container, FormControl, Navbar, Nav , Form } from 'react-bootstrap'
-import logo from './vtg1.gif'
+import logo from '../assets/logo.png';
 import {BrowserRouter as  Router, Routes , Route, Link,  } from 'react-router-dom';
 
 import Home from '../Pages/Home.js';
@@ -19,19 +19,19 @@ export default class Header extends Component {
                     <Navbar.Brand href="/">
                         <img
                             src={logo}
-                            height="60"
-                            width="70"
+                            height="70"
+                            width="60"
                             className="d-inline-block align-top"
                             alt="Logo"
-                        /> Военторг
+                        /> 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="mr-auto">
-                            <Nav.Link href="/"> Home </Nav.Link>
-                            <Nav.Link href="/about"> About us </Nav.Link>
-                            <Nav.Link href="/contacts"> Contacts  </Nav.Link>
-                            <Nav.Link href="/blog"> Blog  </Nav.Link>
+                            <Nav.Link href="/"> Главная </Nav.Link>
+                            <Nav.Link href="/about"> О нас </Nav.Link>
+                            <Nav.Link href="/contacts"> Контакты  </Nav.Link>
+                            <Nav.Link href="/blog"> Блог  </Nav.Link>
                         </Nav>
                         <Form inline>
                             <FormControl

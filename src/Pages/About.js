@@ -2,68 +2,86 @@ import React,{Component} from 'react';
 import { Container, Nav, Row, Tab , Col} from 'react-bootstrap';
 
 
-
 export default class About extends Component {
     render() {
         return (
-            <Tab.Container id='left-tabs-example' defaultActiveKey='first'>
-                <Row>
-                    <Col sm={3} >
-                        <Nav variant='pills' className='flex-column' mt-2>
-                            <Nav.Item>
-                                <Nav.Link eventKey='first' >Design </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey='second' >Team </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey='third' >Programming </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey='fourth' >Fraemworks </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey='fifth' >Libraries </Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                    </Col>
-                    <Col sm={9}>
-                        <Tab.Content>
-                            <Tab.Pane> eventKey='first'
-                                <img src='vtg1.gif'/>
-                                <p>
-                                    Суть Военторга заключается в поддержании Армии РФ
-                                </p>
-                            </Tab.Pane>
-                            <Tab.Pane> eventKey='second'
-                                <img src='https://oaovoentorg.ru/netcat_files/multifile/2372/4_45.jpg'/>
-                                <p>
-                                    Суть Военторга заключается в поддержании Армии РФ
-                                </p>
-                            </Tab.Pane>
-                            <Tab.Pane> eventKey='third'
-                                <img src='https://oaovoentorg.ru/netcat_files/multifile/2372/387/DU7I8543.JPG'/>
-                                <p>
-                                    Суть Военторга заключается в поддержании Армии РФ
-                                </p>
-                            </Tab.Pane>
-                            <Tab.Pane> eventKey='fourth'
-                                <img src='https://oaovoentorg.ru/netcat_files/multifile/2372/1__2__1.jpg'/>
-                                <p>
-                                    Суть Военторга заключается в поддержании Армии РФ
-                                </p>
-                            </Tab.Pane>
-                            <Tab.Pane> eventKey='fifth'
-                                <img src='https://avatars.dzeninfra.ru/get-zen_doc/3415135/pub_612627bae3fa04199b9e278a_612627e758c2c11c057fd12a/scale_1200'/>
-                                <p>
-                                    Суть Военторга заключается в поддержании Армии РФ
-                                </p>
-                            </Tab.Pane>
-                        </Tab.Content>
-                    </Col>
-                </Row>
-            
-            </Tab.Container>
+            <Container style={{width:"500px"}}>
+                <Tab.Container id='left-tabs-example' defaultActiveKey='first'>
+                    <Row>
+                        <Col sm={3} >
+                            <Nav variant='pills' className='flex-column' mt-2>
+                                <Nav.Item>
+                                    <Nav.Link eventKey='first' >Новости </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey='second' >История </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey='third' >Вакансии </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey='fourth' >Партнеры </Nav.Link>
+                                </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link eventKey='fifth' >Карта </Nav.Link>
+                                </Nav.Item>
+                            </Nav>
+                        </Col>
+                        <Col sm={9}>
+                            <Tab.Content>
+                                <Tab.Pane eventKey= 'first'>
+                                    <img src='https://vostok.oaovoentorg.ru/netcat_files/generated/2000/2351/300x300/1727/5e7b294f963b0b3c775c40b22edc2f81.jpg?crop=0%3A0%3A0%3A0&hash=ef98ad63d8aaa1a700adff02002f6f49&resize_mode=1&wm_m=0'/>
+                                    <p>
+                                    9 мая, в День Победы над нацистской Германией в Великой Отечественной войне, во всех субъектах Российской Федерации организованы праздничные мероприятия, посвященные этому Великому празднику.
+Статические и динамические показы современной и ретро военной техники, праздничные концерты, военно-патриотические акции, а также раздача солдатской каши были организованы во всех крупных городах.
+АО «Военторг - Восток» также не осталось в стороне от участия в этих мероприятиях. В 11 городах Сибири и Дальнего Востока в местах праздничных гуляний была организована выездная торговля, приуроченная к празднованию 79-ей годовщины Великой Победы.
+Вкуснейшие френч-доги и бургеры, шаурма и сэндвичи, прохладительные и горячие напитки пользовались огромным спросом у посетителей мероприятия.
+Ну и какой же праздник без продукции бренда «Армия России». Для всех желающих приобрести памятные сувениры и аксессуары собственной торговой марки были развернуты 13 торговых павильонов.
+                                    </p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey='second'>
+                                    <img src= 'https://ic.pics.livejournal.com/vladimirdar/64625554/3845177/3845177_original.png'/>
+                                    <p>
+                                    История военной торговли начинается с издания в 1918 году Декрета Совета Народных Комиссаров об организации на фронте и в прифронтовой полосе базисных складов, передвижных и стационарных лавок, хлебопекарен и других торговых структур, призванных обеспечить красноармейцев и командный состав товарами первой необходимости.
+Созданное в 1918 году Центральное управление красноармейских лавок (ЦУКЛ) способствовало развитию этой формы военной торговли на фронтах через фронтовые управления и отделения красноармейских лавок.   
+По окончании Гражданской войны в 1921 году ЦУКЛ реорганизуется во Всеармейское военно-кооперативное управление, в округах – военно-кооперативные управления, которые просуществовали до 1935 года, когда Постановлением (17 октября 1935 г.) Совета народных комиссаров внутренней торговли СССР было организовано Центральное государственное объединение военной торговли для обслуживания производственно-бытовых нужд Рабоче-крестьянской армии и флота – Центрвоенторг.
+В апреле 1938 года Центрвоенторг реорганизован в Главное управление торговли (Главвоенторг). В свою очередь в военных округах  на флотах формируются окружные (флотские) военторги.
+                                    </p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey='third'> 
+                                    <img src='https://avatars.mds.yandex.net/get-altay/1660410/2a000001699f1d020c48f02652cbb0db768c/XXL'/>
+                                    <p>
+                                    КАРЬЕРА (ВАКАНСИИ)
+Карьера
+Список вакансий
+Основная ценность нашей компании – коллектив высококвалифицированных специалистов разного профиля, которые поддерживают высокие стандарты качества услуг, предоставляемых АО «Военторг».
+
+Сегодня в нашей команде профессионалов работает более 1 000 сотрудников.
+
+Нашими главными корпоративными ценностями являются профессионализм, командность и ответственность. 
+
+Мы приветствуем появление в своих рядах специалистов, чьи профессиональные знания будут способствовать в достижении АО «Военторг» своих целей в сфере качественного оказания услуг.
+
+Если вы хотите присоединиться к нашей команде единомышленников, предлагаем ознакомиться со списком открытых вакансий.
+                                    </p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey='fourth'>
+                                    <img src='https://ic.pics.livejournal.com/vladimirdar/64625554/3837349/3837349_original.jpg'/>
+                                    <p>
+                                        Суть Военторга заключается в поддержании Армии РФ
+                                    </p>
+                                </Tab.Pane>
+                                <Tab.Pane eventKey='fifth'>
+                                    <img src='https://avatars.mds.yandex.net/get-altay/1359533/2a00000163cb59a6c58914f207ca4d4c8996/XXXL'/>
+                                    <p>
+                                        Суть Военторга заключается в поддержании Армии РФ
+                                    </p>
+                                </Tab.Pane>
+                            </Tab.Content>
+                        </Col>
+                    </Row>
+                </Tab.Container>
+            </Container>
         )
 
     }
