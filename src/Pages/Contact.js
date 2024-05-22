@@ -18,7 +18,7 @@ export default class Contact extends Component {
                     </Form.Group>
 
                     <Form.Group controlId='formBasicPassword'>
-                        <Form.Label> Введите текст</Form.Label>
+                        <Form.Label> Введите ваши пожелания</Form.Label>
                         <Form.Control as='textarea' rows='3'/>
                     </Form.Group>
 
