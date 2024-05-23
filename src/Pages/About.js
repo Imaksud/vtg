@@ -9,7 +9,7 @@ export default class About extends Component {
                 <Tab.Container id='left-tabs-example' defaultActiveKey='first'>
                     <Row>
                         <Col sm={3} >
-                            <Nav variant='pills' className='flex-column' mt-2>
+                            <Nav variant='pills' className='flex-column mt-2'>
                                 <Nav.Item>
                                     <Nav.Link eventKey='first' >Новости </Nav.Link>
                                 </Nav.Item>
@@ -29,7 +29,7 @@ export default class About extends Component {
                         </Col>
                         <Col sm={9}>
                             <Tab.Content>
-                                <Tab.Pane eventKey= 'first'>
+                                <Tab.Pane eventKey= 'first' >
                                     <img src='https://vostok.oaovoentorg.ru/netcat_files/generated/2000/2351/300x300/1727/5e7b294f963b0b3c775c40b22edc2f81.jpg?crop=0%3A0%3A0%3A0&hash=ef98ad63d8aaa1a700adff02002f6f49&resize_mode=1&wm_m=0'/>
                                     <p>
                                     9 мая, в День Победы над нацистской Германией в Великой Отечественной войне, во всех субъектах Российской Федерации организованы праздничные мероприятия, посвященные этому Великому празднику.
