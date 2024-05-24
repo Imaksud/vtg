@@ -14,7 +14,7 @@ export default class blog extends Component {
                                 width={150}
                                 height={150}
                                 className='mr-3'
-                                src={vtg1}  
+                                src={vtg1} 
                             />
                         </div>
                             <div className="media-body">
